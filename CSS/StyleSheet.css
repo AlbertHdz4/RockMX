@@ -1,0 +1,303 @@
+/*Estilos Generales*/
+* {
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	font-family: "Domine";
+}
+
+body {
+
+}
+/*Estilos Generales*/
+
+/*Header*/
+/*.contenedor {
+	width: 1200px;
+	padding-left: 80px;
+	text-align: center;
+}*/
+
+.cabecera {
+	display: flex;
+	justify-content: space-around;
+	/*border: 10px solid #1F313C;*/
+	/*border-radius: 20px;*/
+	/*margin-bottom: 10px;*/
+	/*position: fixed;*/
+}
+
+.logo img{
+	width: 160px;
+}
+
+.menu {
+	padding-top: 45px;
+	margin-right: 50px
+	/*align-items: center;*/
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 20px;
+	height: auto;
+}
+
+.menu img {
+	width: 40px;
+}
+
+.menu figcaption {
+	font-size: 15px;
+	font-family: "Amaranth";
+}
+
+/*Header*/
+
+/*Portada*/
+.portada {
+	background-image: url("../Images/background.png");
+	background-size: cover;
+	padding-bottom: 550px;
+	/*width: 100%;*/
+	/*height: 100%;*/
+}
+
+.titulo > h1{
+	color: white;
+	font-size: 100px;
+	padding-left: 25px;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.portada h2 {
+	color: white;
+	font-size: 20px;
+	padding-left: 35px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*Portada*/
+
+/*Contenido bandas*/
+.titulo-noticias, .titulo-lanzamientos, .titulo-grupos {
+	display: block;
+	width: 176px;
+	height: 55px;
+	font-size: 45px;
+	text-align: left;
+	margin: 20px 20px 45px 200px;
+	border-bottom: 2px solid gray;
+}
+
+.banda1, .banda2, .banda3 {
+	width: 351px;
+	display: inline-block;
+	/*border: 1px solid ;*/
+	margin: 10px;
+}
+
+.banda1 img, .banda2 img, .banda3 img, .banda4 img {
+	width: 350px;
+	height: 232.969px;
+}
+
+
+.parrafo-banda {
+	text-align: justify;
+	font-family: "Amaranth";
+	font-size: 20px;
+	opacity: 0.7;
+	margin-top: 5px;
+}
+
+.pie-bandas span{
+	display: block;
+	margin-top: 20px;
+	text-align: justify;
+	font-family: "Amaranth";
+	font-size: 12px;
+	opacity: 0.5;
+	border-top: 1px solid gray;
+	padding-top: 4px;
+}
+
+/*Lanzamientos*/
+.titulo-lanzamientos {
+	width: 310px;
+}
+
+.lanzamiento1, .lanzamiento2, .lanzamiento3, .grupo1, .grupo2, .grupo3 {
+	width: 300px;
+	display: inline-block;
+	/*border: 1px solid ;*/
+	margin: 10px;
+}
+
+.lanzamiento1 img, .lanzamiento2 img, .lanzamiento3 img, .lanzamieno4 img, .grupo1 img, .grupo2 img, .grupo3 img {
+	width: 240px;
+	height: 232.969px;
+}
+
+.parrafo-lanzamiento {
+	text-align: justify;
+	font-family: "Amaranth";
+	font-size: 20px;
+	opacity: 0.7;
+	margin-top: 5px;
+	padding-left: 40px
+}
+
+.pie-lanzamientos span{
+	display: block;
+	margin-top: 20px;
+	text-align: justify;
+	font-family: "Amaranth";
+	font-size: 12px;
+	opacity: 0.5;
+	border-top: 1px solid gray;
+	padding-top: 4px;
+	/*padding-left: 40px;*/
+}
+/*Barra de Navegacion*/
+.navegacion-footer {
+	margin: 30px 0px;
+}
+
+.navegacion-footer div {
+	display: inline-block;
+	margin: 5px;
+	border: 2px solid gray;
+	box-shadow: rgb(150, 150, 150) 3px 3px 5px;
+	border-radius: 20px;
+	padding: 5px
+}
+
+.navegacion-footer:nth-child(1n+4) {
+
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+/*Footer*/
+.pie {
+	display: flex;
+	background-image: url("../Images/footer-img.png");
+	justify-content: center;
+	margin-top: 50px;
+	padding-top: 30px;
+	opacity: 0.7;
+	border-top: 2px solid gray; 
+}
+
+.pie-col1 {
+	margin: 20px;
+}
+
+.piecol1 > span {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.pie h4, .pie h5 {
+	margin-bottom: 10px;
+	font-family: "Amaranth";
+	font-size: 20px;
+}
+
+.icon-feat {
+	margin: 10px;
+}
+
+.pie-col2, .pie-col2 > form{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pie-col3{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+label, textarea, input{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-family: "Amaranth";
+	text-align: left;
+}
+
+/*Grupos*/
+
+.titulo-grupos {
+	width: 310px;
+}
+
+.parrafo-grupos {
+	text-align: justify;
+	font-family: "Amaranth";
+	font-size: 40px;
+	opacity: 0.7;
+	margin-top: 5px;
+	padding-left: 40px;
+}
+
+.pie-grupos span{
+	display: block;
+	margin-top: 20px;
+	text-align: justify;
+	font-family: "Amaranth";
+	font-size: 12px;
+	opacity: 0.5;
+	border-top: 1px solid gray;
+	padding-top: 4px;
+	/*padding-left: 40px;*/
+}
+
+/*Footer*/
+
+/*Carga para Redes Sociales Iconos*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?q050fn');
+  src:  url('../fonts/icomoon.eot?q050fn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?q050fn') format('truetype'),
+    url('../fonts/icomoon.woff?q050fn') format('woff'),
+    url('../fonts/icomoon.svg?q050fn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 2em;
+  text-transform: none;
+  line-height: 3;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e912";
+}
+
+.icon-facebook:before {
+  content: "\ea91";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
