@@ -53,27 +53,35 @@
 
 /*Portada*/
 .portada {
-	background-image: url("../Images/background.png");
+	background-image: url("../Images/portada.jpg");
 	background-size: cover;
 	padding-bottom: 550px;
 	/*width: 100%;*/
 	/*height: 100%;*/
 }
 
+.titulo {
+	background: rgba(217,217,217,0.5);
+	display: inline-block;
+	margin-top: 20px;
+}
+
 .titulo > h1{
-	color: white;
+	color: black;
 	font-size: 100px;
 	padding-left: 25px;
 	padding-top: 80px;
 	text-align: center;
+	font-family: "Amaranth";
 }
 
 .portada h2 {
-	color: white;
+	color: black;
 	font-size: 20px;
 	padding-left: 35px;
 	padding-top: 10px;
 	text-align: center;
+	padding-bottom: 80px;
 }
 
 /*Portada*/
